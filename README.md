@@ -27,7 +27,7 @@ NeonPulse is a high-speed blockchain specifically optimized for gaming transacti
 | **Chain Name** | NeonPulse Network |
 | **Chain ID** | 78901 |
 | **Symbol** | NEON |
-| **Block Time** | 3 seconds |
+| **Block Time** | 5 seconds |
 | **Consensus** | Proof of Stake |
 | **Total Supply** | 5,000,000 NEON |
 | **Network Type** | Testnet |

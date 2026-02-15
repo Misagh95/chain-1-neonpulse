@@ -1,0 +1,21 @@
+{
+  "chain_name": "NeonPulse_Network",
+  "chain_id": 78901,
+  "symbol": "NEON",
+  "total_supply": 5000000,
+  "block_time": 3,
+  "consensus": "Proof of Stake",
+  "creator": "Misagh95",
+  "description": "High-speed gaming blockchain",
+  "github": "https://github.com/Misagh95",
+  "launch_date": "2024-01-01",
+  "network_type": "testnet",
+  "features": [
+    "10,000 TPS capability",
+    "Gaming-optimized smart contracts",
+    "NFT tournament system",
+    "In-game currency swaps"
+  ]
+}
+Commit message: Add config.json
+✅ Commit directly to the main branch

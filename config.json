@@ -1,21 +1,55 @@
 {
-  "chain_name": "NeonPulse_Network",
+  "chain_name": "NeonPulse Network",
   "chain_id": 78901,
   "symbol": "NEON",
-  "total_supply": 5000000,
-  "block_time": 3,
-  "consensus": "Proof of Stake",
-  "creator": "Misagh95",
-  "description": "High-speed gaming blockchain",
-  "github": "https://github.com/Misagh95",
-  "launch_date": "2024-01-01",
-  "network_type": "testnet",
+  "decimals": 18,
+  
+  "supply": {
+    "genesis_supply": 1000000,
+    "max_supply": 5000000,
+    "circulating_supply": 1000000
+  },
+  
+  "block_details": {
+    "block_time": 3,
+    "block_reward": 10,
+    "halving_interval": 210000,
+    "halving_count": 0,
+    "current_block_reward": 10
+  },
+  
+  "consensus": {
+    "type": "Proof of Stake",
+    "validators": 21,
+    "minimum_stake": 10000
+  },
+  
+  "network": {
+    "network_type": "testnet",
+    "launch_date": "2024-01-01",
+    "rpc_url": "https://neonpulse.testnet.canopy.network",
+    "explorer_url": "https://explorer.neonpulse.network"
+  },
+  
+  "project_info": {
+    "creator": "Misagh95",
+    "github": "https://github.com/Misagh95",
+    "description": "High-speed gaming blockchain with tournament support",
+    "category": "Gaming",
+    "website": "https://neonpulse.network",
+    "documentation": "https://docs.neonpulse.network"
+  },
+  
   "features": [
-    "10,000 TPS capability",
-    "Gaming-optimized smart contracts",
-    "NFT tournament system",
-    "In-game currency swaps"
-  ]
+    "10,000 TPS gaming transactions",
+    "NFT tournament systems",
+    "In-game currency swaps",
+    "Low latency esports integration"
+  ],
+  
+  "roadmap": {
+    "phase1": "Testnet Launch - Q1 2024",
+    "phase2": "Gaming SDK Release - Q2 2024",
+    "phase3": "Mainnet Launch - Q3 2024"
+  }
 }
-Commit message: Add config.json
-✅ Commit directly to the main branch
